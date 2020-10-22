@@ -9,8 +9,8 @@ border-radius: 0px;
 
 
 #subcard .card{
-    width: 250px;
-    height: 270px;
+    width: 255px;
+    height: 260px;
     border-radius: 5px;
     
 }
@@ -22,8 +22,9 @@ border-radius: [object Object]px;
     
 }
 
-body,h4{
+body,h4,h1,h2,h5,p{
     font-size: 12px;
+    font-family: 'Lato', sans-serif;
 }
 
 .card{
@@ -32,11 +33,37 @@ body,h4{
 
 #card1 .card{
 width: 547px;
-height: 524px;
+height: 520px;
 }
 
 #card1 img{
 width: 547px;
 height: 305px;
 border-radius: 5px 5px 0px 0px;
+}
+
+#subcard{
+margin-top: 5%;
+}
+
+span{
+    color: plum;
+}
+h2{
+    font-size: 30px;
+    font-weight: bolder;
+}
+h4,h5{
+    font-weight: bold;
+}
+
+nav .input{
+height: 59px;
+width: 300px;
+border-radius: 3px;
+
+}
+nav .col{
+    border: 1px solid gray;
+    height:36px;
 }
