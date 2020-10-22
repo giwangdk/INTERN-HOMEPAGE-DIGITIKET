@@ -1,0 +1,21 @@
+/* PIKNIKGAYA BARU 1 */
+/* PIKNIKGAYA BARU 1 */
+.carousel-inner{
+border-radius: 5px;
+}
+
+/* Rectangle 2 */
+input{
+position: absolute;
+left: 27.92%;
+right: 40.14%;
+top: 14.84%;
+bottom: 47.1%;
+
+background: #FFFFFF;
+/* Gray 5 */
+border: 1px solid #E0E0E0;
+box-sizing: border-box;
+box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.1);
+border-radius: 3px;
+}
