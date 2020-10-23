@@ -38,12 +38,12 @@ height: 520px;
 
 #card1 img{
 width: 547px;
-height: 305px;
+height: 325px;
 border-radius: 5px 5px 0px 0px;
 }
 
 #subcard{
-margin-top: 5%;
+margin-top: 4%;
 }
 
 span{
@@ -52,6 +52,7 @@ span{
 h2{
     font-size: 30px;
     font-weight: bolder;
+    margin-bottom:35px;
 }
 h4,h5{
     font-weight: bold;
@@ -63,7 +64,52 @@ width: 300px;
 border-radius: 3px;
 
 }
-nav .col{
-    border: 1px solid gray;
-    height:36px;
+nav .col-3, .col, .col-1, .col-2,.dropdown{
+    border-left: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
+    padding: 2px;
+    height:35px;
+    text-align: justify;
+    color:#413F3F;
+    font-weight: bold;
+    text-align: center;
+    ;
+}
+
+.card-body{
+    padding:10px;
+}
+#nav2{
+    height: 36px;   
+    font-size: 13px;
+}
+#nav2 button{
+    background: #7014A9;
+    color: white;
+    font-weight: bold;
+
+}
+#nav2 .dropdown-item, .dropdown-toggle{
+    color: #F05A86;
+    font-weight: bold;
+    
+}
+#nav1 button{
+border: 0;
+background: rgba(112, 20, 169, 0.15);
+border-radius: 5px;
+height: 45px;
+width: 110px;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 23px;
+/* identical to box height */
+letter-spacing: 0.04em;
+
+color: #CD7BFF;
+
+;
+
+
 }
