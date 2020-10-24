@@ -9,21 +9,23 @@ border-radius: 0px;
 
 
 #subcard .card{
-    width: 255px;
-    height: 260px;
     border-radius: 5px;
     
 }
 
 #subcard img{
-height: 142px;
-width: auto;
 border-radius: [object Object]px;
     
 }
+.card{
+    width: 100%;
+}
 
-body,h4,h1,h2,h5,p{
-    font-size: 12px;
+.card img{
+    max-height: auto;
+    min-height: auto;
+}
+body{
     font-family: 'Lato', sans-serif;
 }
 
@@ -53,9 +55,15 @@ h2{
     font-size: 30px;
     font-weight: bolder;
     margin-bottom:35px;
+    font-family: 'Lato';
 }
-h4,h5{
+h4,h5,td{
+    font-size: 10px;
     font-weight: bold;
+    font-family: 'Lato';
+}
+p{
+    font-size: 10px;
 }
 
 nav .input{
@@ -73,11 +81,17 @@ nav .col-3, .col, .col-1, .col-2,.dropdown{
     color:#413F3F;
     font-weight: bold;
     text-align: center;
-    ;
+}
+nav a:hover{
+    color: violet;
 }
 
 .card-body{
-    padding:10px;
+    padding:8px;
+}
+
+.card h4{
+    margin-bottom: 5px;
 }
 #nav2{
     height: 36px;   
@@ -108,8 +122,30 @@ line-height: 23px;
 letter-spacing: 0.04em;
 
 color: #CD7BFF;
+}
 
-;
+nav .badge{
+    background: #7014A9;
+    color: white;
+}
+ul{
+    list-style-type: none;
+    font-size: 10px;
+    text-align: justify;
+}
+aside{
+    font-size:12px;
+    text-align: justify;
+}
 
+footer{
+border-top: 2px solid #EEEEEE;
+font-family: Lato;
+font-size: 10px;
+font-style: normal;
+font-weight: bolder;
+line-height: 27px;
+letter-spacing: 0.04em;
+text-align: left;
 
 }
